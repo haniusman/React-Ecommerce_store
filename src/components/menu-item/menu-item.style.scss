@@ -9,8 +9,8 @@
     margin: 0 7.5px 15px;
     overflow:hidden;
 
-    &:hover {
-      cursor: pointer;
+    &:hover { //onhover image size increases
+      cursor: pointer; // on hover cursor changes to pointer
 
       & .background-image{
         transform: scale(1.1);
@@ -21,10 +21,9 @@
         opacity: 0.9;
       }
     }
-   &.large {
+   &.large { 
      height: 380px;
    }
-
 
   .background-image{
     width: 100%;
@@ -64,5 +63,5 @@
         font-weight: lighter;
         font-size: 16px;
       }
-    }
+    }  
   }
