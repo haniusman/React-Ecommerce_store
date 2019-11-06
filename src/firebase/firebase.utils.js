@@ -13,16 +13,16 @@ const config = {
     measurementId: "G-RQ3YLXH0CZ"
   };
 
-  export const createUserProfileDocument = async(userAuth, additionalData) => {
-    if(!userAuth)
-    {
-      return;
-    }
-    const userRef = firebase.doc('users/128jbhgklsj');
-    const snapShot = await userRef.get();
+  //export const createUserProfileDocument = async(userAuth, additionalData) => {
+    //if(!userAuth)
+   // {
+    //  return;
+   // }
+   /// const userRef = firebase.doc('users/128jbhgklsj');
+   // const snapShot = await userRef.get();
 
-    console.log(snapShot);
-  };
+  //  console.log(snapShot);
+  //};
 
   firebase.initializeApp(config);
 
